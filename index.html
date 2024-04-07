@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>持ち物管理アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-firestore.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyD1-Fg-M_nevCf_i62j1QKFNMm6LaQRoyQ",
+            authDomain: "things-necessary.firebaseapp.com",
+            projectId: "things-necessary",
+            storageBucket: "things-necessary.appspot.com",
+            messagingSenderId: "324700940323",
+            appId: "1:324700940323:web:f64a0785a124264d5f6996",
+            measurementId: "G-HSQND93LKE"
+        };
+        
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+      <h2>持ち物一覧</h2>
+      <div>
+        <br>
+        <div class="list-8">
+            <div>
+                <label class="selectbox-6">
+                    <select id="select1">
+                        
+                    </select>
+                </label>
+            </div>
+            <ul id="list1">
+
+            </ul>
+        </div>
+      </div>
+
+      <script src="main.js"></script>
+</body>
+</html>
