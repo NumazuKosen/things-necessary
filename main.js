@@ -151,6 +151,7 @@ function addSelectOptions(id, arr, arrid) {
         e_option.setAttribute("id","option_"+arrid[i]);
         e_select.appendChild(e_option);
     }
+    
 }
 
 
@@ -225,6 +226,7 @@ function setup() {
     for(var i = 0;i < select_id_list.length;i++) {
         document.getElementById(select_id_list[i]).addEventListener('change', selectChange);
         addSelectOptions(select_id_list[i],subject_name_list,subject_key_list);
+        selectChange({target: document.getElementById(select_id_list[i])});
     }
 }
 
