@@ -56,6 +56,7 @@ var things_list = {
     ax:["","電子辞書"],
     ay:["","電卓/関数電卓"],
     az:["","情報端末"],
+    ba:["","実習服"],
 };
 
 var subject_list = {
